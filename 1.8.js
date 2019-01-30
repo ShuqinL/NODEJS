@@ -14,4 +14,4 @@ let animal = readlineSync.question("What kind of animal are you afraid of?");
 let action = readlineSync.question("Did you do something you regret? What?");
 let reason = readlineSync.question("What would be the reason if you go to a desert island alone?");
 
-console.log( time + ", "+person+" "+action+" with a "+animal+" "+place+", because "+person+" want to "+reason);
+console.log( time + ", "+person+" "+action+" with a "+animal+" "+place+", because "+person+" wants to "+reason);
