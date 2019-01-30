@@ -5,19 +5,19 @@ const readlineSync =require("readline-sync");
 
 let num= new Number(readlineSync.question("Please enter a number between 1 and 7.")); 
 
-if(num===1){
+if(num==1){
     console.log("Today is Monday.");
-} else if(num===2){
+} else if(num==2){
     console.log("Today is Tuesday.");
-} else if(num===3){
+} else if(num==3){
     console.log("Today is Wednesday.");
-} else if(num===4){
+} else if(num==4){
     console.log("Today is Thursday.");
-} else if(num===5){
+} else if(num==5){
     console.log("Today is Friday.");
-} else if(num===6){
+} else if(num==6){
     console.log("Today is Saturday.");
-} else if(num===7){
+} else if(num==7){
     console.log("Today is Sunday.");
 } else {
     console.log("Please enter a number between 1 and 7!");

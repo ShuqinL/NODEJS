@@ -10,5 +10,8 @@ while(i!==42){
     let i = new Number(readlineSync.question("What is your favorite number?"));
 }
 
+if(i===42){
+    console.log("You are right! The number is 42");
+}
 
 
