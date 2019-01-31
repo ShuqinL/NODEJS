@@ -24,9 +24,7 @@ class Rectangle{
     } else {
         return false;
     }
-
    }
-
 }
 let r1;
 let r2;
@@ -36,7 +34,7 @@ let displayCollidingRectangles=function(r1,r2){
     for(var i=0;i<=1000;i++){
     r1=new Rectangle(Math.floor(Math.random()*100),Math.floor(Math.random()*100),Math.floor(Math.random()*100),Math.floor(Math.random()*100));
     r2=new Rectangle(Math.floor(Math.random()*100),Math.floor(Math.random()*100),Math.floor(Math.random()*100),Math.floor(Math.random()*100));
-
+    
     if(r1.collides(r2)==true){
         console.log("The tow rectangles collide with each other: "+JSON.stringify(r1)+" and "+JSON.stringify(r2));
     }
